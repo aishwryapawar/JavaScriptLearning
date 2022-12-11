@@ -18,10 +18,10 @@ showDetails("Chetan");
 showDetails("Rajesh");
 
 function rajuBhaiya(paisa) {
-console.log("Going in market");
-console.log("purchase fresh vegitables");
-console.log("come back");
-return 100;
+console.log("Going in market",paisa);
+console.log("purchase fresh vegitables",paisa);
+console.log("come back",paisa);
+return "Bag Of Vegitables";
 }
 var bgOfVegiables=rajuBhaiya(100);
 console.log(bgOfVegiables);
