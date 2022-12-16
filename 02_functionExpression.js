@@ -16,4 +16,13 @@ var substraction= function(num1,num2)
     return result;
 }
  var result=substraction(50,40);
- console.log(sresult);
+ console.log(result);
+
+ var square = function(val)
+ {
+    console.log("Square of",val,"is",val*val);
+    
+ }
+ console.log(typeof square);
+ square(2);
+ square(3);
