@@ -1,0 +1,23 @@
+function isEvenOrOdd(num) 
+{
+    if (typeof num == "number") 
+    {
+        console.log(`Valid number ${num}`);
+        if (num % 2 === 0) 
+        {
+            console.log(`Even number`);
+        } 
+        else 
+        {
+            console.log(`Odd Number`);
+        }
+    }
+     else 
+     {
+        console.log(`Invalid number ${num}`);
+    }
+}isEvenOrOdd(2);
+isEvenOrOdd(45);
+isEvenOrOdd(13);
+isEvenOrOdd(0);
+isEvenOrOdd("70");
